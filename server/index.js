@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 const userRoute = require("./routes/users");
 const pinRoute = require("./routes/pins");
 
-dotenv.config();
+require("dotenv").config();
 
 app.use(express.json());
 
